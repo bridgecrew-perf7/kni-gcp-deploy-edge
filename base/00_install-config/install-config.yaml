@@ -4,6 +4,8 @@ compute:
 - hyperthreading: Enabled
   name: worker
   replicas: 0
+  userTags:
+    manuela: factory
 controlPlane:
   hyperthreading: Enabled
   name: master
